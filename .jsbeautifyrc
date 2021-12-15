@@ -1,0 +1,40 @@
+{
+    "indent_char": " ",
+    "indent_level": 0,
+    "indent_size": 4,
+    "indent_with_tabs": false,
+    "end_with_newline": true,
+    "max_preserve_newlines": 0,
+    "preserve_newlines": true,
+    "wrap_line_length": 120,
+    "js": {
+        "allowed_file_extensions": ["js", "json", "jshintrc", "jsbeautifyrc"],
+        "brace_style": "collapse",
+        "break_chained_methods": false,
+        "e4x": false,
+        "jslint_happy": false,
+        "keep_array_indentation": false,
+        "keep_function_indentation": false,
+        "space_after_named_function": false,
+        "space_after_anon_function": false,
+        "space_before_conditional": false,
+        "space_in_empty_paren": false,
+        "space_in_paren": false,
+        "unescape_strings": false,
+        "javascript.format.semicolons": "insert"
+    },
+    "html": {
+        "allowed_file_extensions": ["htm", "html", "xhtml", "shtml", "xml",
+            "svg", "dust"
+        ],
+        "brace_style": "collapse",
+        "indent_handlebars": true
+    },
+    "css": {
+        "allowed_file_extensions": ["css", "scss", "sass", "less"],
+        "selector_separator": " ",
+        "newline_between_rules": true,
+        "selector_separator_newline": true,
+        "space_around_combinator": true
+    }
+}
