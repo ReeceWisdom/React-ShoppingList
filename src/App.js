@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react';
-import Header from './Header';
-import AddItem from './AddItem';
-import SearchItem from './SearchItem';
-import Content from './Content';
-import Footer from './Footer';
+import Header from './components/Header';
+import AddItem from './components/AddItem';
+import SearchItem from './components/SearchItem';
+import Content from './components/Content';
+import Footer from './components/Footer';
 import apiRequest from './apiRequest';
 import { FiLoader } from 'react-icons/fi';
 
 function App() {
     const name = 'Reece Wisdom';
-    const API_URL = 'http://localhost:3500/items';
+    const API_URL = 'http://localhost:3100/items';
 
     const [items, setItems] = useState([]);
     const [newItem, setNewItem] = useState('');
